@@ -133,3 +133,31 @@ class Ui_MainWindow(object):
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
         # MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+        MainWindow.setTabOrder(self.textEdit_Weight_Input, self.textEdit_Height_Input)
+        MainWindow.setTabOrder(self.textEdit_Height_Input, self.textEdit_Year_Input)
+        MainWindow.setTabOrder(self.textEdit_Year_Input, self.textEdit_Monthr_Input)
+        MainWindow.setTabOrder(self.textEdit_Monthr_Input, self.textEdit_Day_Input)
+        MainWindow.setTabOrder(self.textEdit_Day_Input, self.pushButton_Calculate)
+
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "BMI + Full Years"))
+        self.pushButton_Calculate.setText(_translate("MainWindow", "Calculate"))
+        self.label_Years_Output.setText(_translate("MainWindow", "Full Years is: "))
+        self.textEdit_Weight_Input.setPlaceholderText(_translate("MainWindow", "type your weight"))
+        self.label_Result.setText(_translate("MainWindow", "Result:"))
+        self.label_Result_Output.setText(_translate("MainWindow", "Waiting for Data"))
+        self.label_BMI.setText(_translate("MainWindow", "BMI:"))
+        self.label_Weight.setText(_translate("MainWindow", "Weight"))
+        self.label_Height.setText(_translate("MainWindow", "Height"))
+        self.textEdit_Height_Input.setPlaceholderText(_translate("MainWindow", "type your height"))
+        self.textEdit_Day_Input.setPlaceholderText(_translate("MainWindow", "Day of birth"))
+        self.label_Year.setText(_translate("MainWindow", "Year"))
+        self.textEdit_Year_Input.setPlaceholderText(_translate("MainWindow", "Year of birth"))
+        self.label_Month.setText(_translate("MainWindow", "Month"))
+        self.textEdit_Monthr_Input.setPlaceholderText(_translate("MainWindow", "Month of birth"))
+        self.label_Day.setText(_translate("MainWindow", "Day"))
