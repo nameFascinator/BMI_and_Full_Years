@@ -14,6 +14,7 @@ class BMI_and_Full_Years(QtWidgets.QWidget):
         self.ui.pushButton_Calculate.pressed.connect(self.count_BMI)
         self.ui.pushButton_Calculate.pressed.connect(self.count_Age)
 
+
     def count_BMI(self):
         weight = self.ui.textEdit_Weight_Input.toPlainText()
         height = self.ui.textEdit_Height_Input.toPlainText()
