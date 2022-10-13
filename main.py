@@ -57,6 +57,7 @@ class BMI_and_Full_Years(QtWidgets.QWidget):
                 button = dlg.exec()
                 QMessageBox.StandardButton.Ok
 
+
     def count_Age(self):
         now = date.today()
         year = self.ui.textEdit_Year_Input.toPlainText()
