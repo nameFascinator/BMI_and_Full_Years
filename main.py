@@ -3,7 +3,7 @@ from PyQt6 import QtWidgets, QtGui
 from PyQt6.QtWidgets import *
 from UI import Ui_MainWindow
 
-# created by Viktor Chmilenko for his beloved wife Marina (Dr. Medizin)
+# created by Viktor Chmilenko for his beloved wife Marina Sharoyko(Dr. Medizin)
 
 class BMI_and_Full_Years(QtWidgets.QWidget):
     def __init__(self, *args, **kwargs):
@@ -58,7 +58,7 @@ class BMI_and_Full_Years(QtWidgets.QWidget):
                 button = dlg.exec()
                 QMessageBox.StandardButton.Ok
                 
-    # created by Viktor Chmilenko for his beloved wife Marina (Dr. Medizin)
+    # created by Viktor Chmilenko for his beloved wife Marina Sharoyko(Dr. Medizin)
     
     def count_Age(self):
         now = date.today()
@@ -123,4 +123,4 @@ if __name__ == '__main__':
     widget.show()
     app.exec()
     
-    # created by Viktor Chmilenko for his beloved wife Marina (Dr. Medizin)
+    # created by Viktor Chmilenko for his beloved wife Marina Sharoyko(Dr. Medizin)
