@@ -1,4 +1,4 @@
-"""GUI interface"""
+"""GUI interface created by Viktor Chmilenko for his beloved wife Marina (Dr. Medizin)"""
 
 from PyQt6 import QtCore, QtGui, QtWidgets
 from PyQt6.QtWidgets import QMessageBox
