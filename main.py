@@ -112,8 +112,6 @@ class BMI_and_Full_Years(QtWidgets.QWidget):
                     dlg.setStyleSheet("background-color: rgb(180, 3, 3);")
                     button = dlg.exec()
                     QMessageBox.StandardButton.Ok
-        else:
-            pass
 
 
 if __name__ == '__main__':
